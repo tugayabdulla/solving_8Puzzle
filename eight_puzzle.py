@@ -124,3 +124,6 @@ class EightPuzzle:
         print(self)
 
         pass
+
+    def __lt__(self, other):
+        return True
